@@ -82,6 +82,7 @@
 		4E2F83EB1FF8E10E00511B4C /* ScrollViewContent */ = {
 			isa = PBXGroup;
 			children = (
+				7E074BF12008B2270010B7FA /* NewMarkerView */,
 				4E2F83FB1FF8E10E00511B4C /* Info.plist */,
 				4E2F83F61FF8E10E00511B4C /* Assets.xcassets */,
 				4E2F83F01FF8E10E00511B4C /* Main.storyboard */,
@@ -91,9 +92,7 @@
 				04727BC02006339D00E23872 /* EditorContentViewController.swift */,
 				4E9107721FFC97F5009DB1C6 /* MarkerView */,
 				4E9107771FFC9973009DB1C6 /* MinimapView */,
-				7E074BEB20087B2D0010B7FA /* MyController.swift */,
 				7E074BED200899C90010B7FA /* CopyVC.swift */,
-				7E074BEF20089ED20010B7FA /* ExampleDataSource.swift */,
 			);
 			path = ScrollViewContent;
 			sourceTree = "<group>";
@@ -106,9 +105,6 @@
 				4E3CFE8820068FC10019993C /* AudioContentView.swift */,
 				4E3CFE8920068FC20019993C /* TextContentView.swift */,
 				4E3CFE8A20068FC20019993C /* VideoContentView.swift */,
-				7E074BE5200872A70010B7FA /* MarkerViewDelegate.swift */,
-				7E074BE7200872C20010B7FA /* Marker.swift */,
-				7E074BE9200875FF0010B7FA /* MarkerViewCell.swift */,
 			);
 			name = MarkerView;
 			sourceTree = "<group>";
@@ -120,6 +116,18 @@
 				4E9107751FFC996F009DB1C6 /* MinimapView.swift */,
 			);
 			name = MinimapView;
+			sourceTree = "<group>";
+		};
+		7E074BF12008B2270010B7FA /* NewMarkerView */ = {
+			isa = PBXGroup;
+			children = (
+				7E074BE5200872A70010B7FA /* MarkerViewDelegate.swift */,
+				7E074BEB20087B2D0010B7FA /* MyController.swift */,
+				7E074BEF20089ED20010B7FA /* ExampleDataSource.swift */,
+				7E074BE7200872C20010B7FA /* Marker.swift */,
+				7E074BE9200875FF0010B7FA /* MarkerViewCell.swift */,
+			);
+			path = NewMarkerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
