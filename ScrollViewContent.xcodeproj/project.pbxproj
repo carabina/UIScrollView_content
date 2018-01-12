@@ -20,6 +20,12 @@
 		4E3CFE9020068FC20019993C /* MarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3CFE8B20068FC20019993C /* MarkerView.swift */; };
 		4E9107741FFC9961009DB1C6 /* MinimapDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9107731FFC9961009DB1C6 /* MinimapDataSource.swift */; };
 		4E9107761FFC996F009DB1C6 /* MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9107751FFC996F009DB1C6 /* MinimapView.swift */; };
+		7E074BE6200872A70010B7FA /* MarkerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E074BE5200872A70010B7FA /* MarkerViewDelegate.swift */; };
+		7E074BE8200872C20010B7FA /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E074BE7200872C20010B7FA /* Marker.swift */; };
+		7E074BEA200875FF0010B7FA /* MarkerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E074BE9200875FF0010B7FA /* MarkerViewCell.swift */; };
+		7E074BEC20087B2D0010B7FA /* MyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E074BEB20087B2D0010B7FA /* MyController.swift */; };
+		7E074BEE200899C90010B7FA /* CopyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E074BED200899C90010B7FA /* CopyVC.swift */; };
+		7E074BF020089ED20010B7FA /* ExampleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E074BEF20089ED20010B7FA /* ExampleDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +44,12 @@
 		4E3CFE8B20068FC20019993C /* MarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerView.swift; sourceTree = "<group>"; };
 		4E9107731FFC9961009DB1C6 /* MinimapDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapDataSource.swift; sourceTree = "<group>"; };
 		4E9107751FFC996F009DB1C6 /* MinimapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapView.swift; sourceTree = "<group>"; };
+		7E074BE5200872A70010B7FA /* MarkerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerViewDelegate.swift; sourceTree = "<group>"; };
+		7E074BE7200872C20010B7FA /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
+		7E074BE9200875FF0010B7FA /* MarkerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerViewCell.swift; sourceTree = "<group>"; };
+		7E074BEB20087B2D0010B7FA /* MyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyController.swift; sourceTree = "<group>"; };
+		7E074BED200899C90010B7FA /* CopyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyVC.swift; sourceTree = "<group>"; };
+		7E074BEF20089ED20010B7FA /* ExampleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,9 @@
 				04727BC02006339D00E23872 /* EditorContentViewController.swift */,
 				4E9107721FFC97F5009DB1C6 /* MarkerView */,
 				4E9107771FFC9973009DB1C6 /* MinimapView */,
+				7E074BEB20087B2D0010B7FA /* MyController.swift */,
+				7E074BED200899C90010B7FA /* CopyVC.swift */,
+				7E074BEF20089ED20010B7FA /* ExampleDataSource.swift */,
 			);
 			path = ScrollViewContent;
 			sourceTree = "<group>";
@@ -91,6 +106,9 @@
 				4E3CFE8820068FC10019993C /* AudioContentView.swift */,
 				4E3CFE8920068FC20019993C /* TextContentView.swift */,
 				4E3CFE8A20068FC20019993C /* VideoContentView.swift */,
+				7E074BE5200872A70010B7FA /* MarkerViewDelegate.swift */,
+				7E074BE7200872C20010B7FA /* Marker.swift */,
+				7E074BE9200875FF0010B7FA /* MarkerViewCell.swift */,
 			);
 			name = MarkerView;
 			sourceTree = "<group>";
@@ -177,12 +195,18 @@
 			files = (
 				4E9107761FFC996F009DB1C6 /* MinimapView.swift in Sources */,
 				4E3CFE8D20068FC20019993C /* AudioContentView.swift in Sources */,
+				7E074BEA200875FF0010B7FA /* MarkerViewCell.swift in Sources */,
 				04727BBF2004AC9700E23872 /* EditorScrollView.swift in Sources */,
 				4E9107741FFC9961009DB1C6 /* MinimapDataSource.swift in Sources */,
 				4E3CFE8F20068FC20019993C /* VideoContentView.swift in Sources */,
 				4E3CFE8E20068FC20019993C /* TextContentView.swift in Sources */,
+				7E074BF020089ED20010B7FA /* ExampleDataSource.swift in Sources */,
 				4E3CFE9020068FC20019993C /* MarkerView.swift in Sources */,
+				7E074BE6200872A70010B7FA /* MarkerViewDelegate.swift in Sources */,
+				7E074BEC20087B2D0010B7FA /* MyController.swift in Sources */,
 				4E3CFE8C20068FC20019993C /* MarkerViewDataSoucrce.swift in Sources */,
+				7E074BEE200899C90010B7FA /* CopyVC.swift in Sources */,
+				7E074BE8200872C20010B7FA /* Marker.swift in Sources */,
 				4E2F83EF1FF8E10E00511B4C /* ViewController.swift in Sources */,
 				4E2F83ED1FF8E10E00511B4C /* AppDelegate.swift in Sources */,
 				04727BC12006339D00E23872 /* EditorContentViewController.swift in Sources */,
